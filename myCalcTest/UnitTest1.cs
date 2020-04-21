@@ -71,6 +71,7 @@ namespace myCalcTest
         [TestCase(123, -21, 18)]
         [TestCase(-123, 0, "NaN")]
         [TestCase(0, 0, "NaN")]
+        [TestCase(-200, -5, 0)]
 
         public void TestEuclideanDivision(double number1, double number2, double expRes)
         {
